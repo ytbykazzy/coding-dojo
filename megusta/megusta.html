@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network - Feed</title>
+  <link rel="stylesheet" href="megusta.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Network</h1>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main class="container">
+    <!-- Sección de perfil -->
+    <aside class="perfil">
+      <img src="img/Imagen de WhatsApp 2024-10-08 a las 21.08.50_2a0afe63.png" alt="Perfil">
+      <p>Adrien Desplatz</p>
+    </aside>
+
+    <!-- Feed -->
+    <section class="feed">
+      <h2>Your Feed</h2>
+
+      <!-- Publicación 1 -->
+      <div class="publicacion">
+        <p><strong>Linn O.</strong></p>
+        <p>Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes. <a href="#">link</a></p>
+        <p><span class="likes" id="likes1">0</span> like(s)</p>
+        <button class="like-btn" data-id="1">Like</button>
+      </div>
+
+      <!-- Publicación 2 -->
+      <div class="publicacion">
+        <p><strong>Lina K.</strong></p>
+        <p>Acabo de terminar este <a href="#">nuevo cómic</a>, denle un vistazo.</p>
+        <p><span class="likes" id="likes2">0</span> like(s)</p>
+        <button class="like-btn" data-id="2">Like</button>
+      </div>
+
+      <!-- Publicación 3 -->
+      <div class="publicacion">
+        <p><strong>Mateo H.</strong></p>
+        <p>No puedo dejar de escuchar este <a href="#">álbum</a>. ¿A quién más le gusta?</p>
+        <p><span class="likes" id="likes3">0</span> like(s)</p>
+        <button class="like-btn" data-id="3">Like</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/megusta.js"></script>
+</body>
+</html>

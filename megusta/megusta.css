@@ -1,0 +1,78 @@
+/* Estilos básicos */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Sección de perfil */
+  .perfil {
+    width: 25%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .perfil p {
+    font-weight: bold;
+  }
+  
+  /* Feed */
+  .feed {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .feed h2 {
+    margin-bottom: 15px;
+  }
+  .publicacion {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .publicacion p {
+    margin: 5px 0;
+  }
+  .like-btn {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .like-btn:hover {
+    background-color: #e0a800;
+  }
+  
